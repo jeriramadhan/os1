@@ -31,10 +31,10 @@ $config['database_pass'] 	= '';
 $config['database_name']	= 'db_penjualanpos';
 
 //Setingan Base URL
-$config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
-$config['base_url'] .= "://".$_SERVER['HTTP_HOST'];
-$config['base_url'] .= preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME'])).'/';
-// $config['base_url'] = "http://".$_SERVER['HTTP_HOST'].'/penjualan';
+// $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
+// $config['base_url'] .= "://".$_SERVER['HTTP_HOST'];
+// $config['base_url'] .= preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME'])).'/';
+$config['base_url'] = "http://".$_SERVER['HTTP_HOST'].'/';
 
 //Setingan Folder Assets dan Folder didalamnya
 $config['assets']			= $config['base_url'].'assets/';
