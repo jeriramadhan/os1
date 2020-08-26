@@ -6,9 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * CLASS NAME : Penjualan
  * ------------------------------------------------------------------------
  *
- * @author     Muhammad Akbar <muslim.politekniktelkom@gmail.com>
- * @copyright  2016
- * @license    http://aplikasiphp.net
+  
  *
  */
 
